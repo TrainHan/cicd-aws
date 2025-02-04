@@ -15,4 +15,9 @@ class HomeController {
     fun healthz(): String {
         return "healthz-aws"
     }
+
+    @GetMapping("/hi")
+    fun hi(): String {
+        return "hi-aws"
+    }
 }
